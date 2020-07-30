@@ -1,4 +1,4 @@
-#include "queue_using_array.h"
+#include "queue_using_array.h"             // this header already includes iostream and other basic headers
 
 int main(){
 
@@ -10,7 +10,7 @@ int main(){
     int choice = 0;
     bool run = true;
 
-while(run){
+while(run){                                
     std::cout<<"\n1. ENQUEUE\n";
     std::cout<<"2. DEQUEUE\n";
     std::cout<<"3. DISPLAY\n";
